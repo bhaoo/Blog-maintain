@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bhao's Blog - 维护中</title>
+  <style>
+    .background {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-image: url("bg.jpg");
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      position: fixed;
+      transition: all 0.3s;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: 50% 50%;
+      z-index: -1;
+      user-select: none;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 800px;
+      height: 400px;
+      backdrop-filter: blur(5px);
+      box-shadow: 0 4px 5px -2px rgba(0,0,0,.2),0 7px 10px 1px rgba(0,0,0,.14),0 2px 16px 1px rgba(0,0,0,.12)!important;
+      border-radius: 16px;
+      color: #fff;
+      font-size: 30px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .container video {
+      position: absolute;
+      left: -100px;
+    }
+  </style>
+</head>
+<body class="background">
+<div class="container">
+  小 窝 维 护 中
+  <video src="maomao.webm" autoplay muted width="500px"></video>
+</div>
+<p style="color:#fff;">Copyright @ 2018-2023 Bhao Allrights Reserved.</p>
+</body>
+</html>
